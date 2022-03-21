@@ -11,3 +11,5 @@ async def on_ready():
     await client.change_presence(activity=discord.Streaming(name=NAME, url=LINK))
 
 client.run(input("Token: ").strip("\""), bot=False)
+
+""" Don't give out your Discord token to anyone. """
